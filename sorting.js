@@ -21,7 +21,6 @@ function bubbleSort(array){
 }
 
 function mergeSort(array){
-	debugger;
 	if(array.length <= 1) return array;
 	var halves = split(array);
 	var left = mergeSort(halves[0]);
